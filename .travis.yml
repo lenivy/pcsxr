@@ -6,10 +6,8 @@ compiler:
 addons:
   apt:
     packages:
-      - autoconf
-      - automake
+      - autoconf-archive
   
 script:
   - ./autogen.sh
-  - ./configure
   - make
