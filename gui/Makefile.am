@@ -66,7 +66,7 @@ define gresource_xml
 </gresources>
 endef
 # FIXME
-export gresouce_xml
+export gresource_xml
 
 pcsxr.gresource.xml:
 #	$(file >$@,$(gresource_xml))
